@@ -1,10 +1,9 @@
-from loguru import logger
+from botpy import logger
 from botpy.message import Message
 
 import botpy
 import yaml
 import json
-import modules
 
 # 测试消息，发送官方文档
 class MyClient(botpy.Client):

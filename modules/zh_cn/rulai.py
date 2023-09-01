@@ -1,7 +1,7 @@
 import botpy
 from Tools.demo.mcast import sender
 from botpy.message import DirectMessage
-from loguru import logger
+from botpy import logging
 
 rutext = """中国人认为宇宙万法的那个源头
 它是什么
@@ -55,4 +55,4 @@ class MyClient(botpy.Client):
         if index > len(rutext) - 1:
             index = 0
 
-logger.info("用户名为 ",id,"触发了rulai")
+logging.info("用户名为 ",id,"触发了rulai")
