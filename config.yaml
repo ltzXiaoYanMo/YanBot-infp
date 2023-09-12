@@ -1,5 +1,10 @@
 bot_app_id: 292746850  # QQ开发者平台中的id参数
+bot_app_token: 114514 # QQ开发者平台的令牌
+bot_app_passwd: 1919810 #QQ开发者平台的密钥
 qqapi: https://api.sgroup.qq.com/ # QQ频道api服务器，此处为正式环境
+# QQ频道接口域名
+# 正式环境：https://api.sgroup.qq.com/
+# 沙箱环境：https://sandbox.api.sgroup.qq.com  （沙箱环境只会收到测试频道的事件，且调用openapi仅能操作测试频道）
 count_ban: 4  # 木鱼调用频率限制
 # 注意：腾讯云内容安全 API 收费为 0.0025/条
 text_review: false  # 是否使用腾讯云内容安全 API 对文本内容进行审核：true -> 是 | false -> 否，使用本地敏感词库

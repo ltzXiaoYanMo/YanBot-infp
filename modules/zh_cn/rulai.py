@@ -1,9 +1,14 @@
-import botpy
-from Tools.demo.mcast import sender
 from botpy.message import DirectMessage
 from botpy import logging
+from botpy.client import Intents
+import botpy
 
-rutext = """中国人认为宇宙万法的那个源头
+# 激活
+
+intents = botpy.Intents(direct_message=True)
+client = MyClient(intents=intents)
+
+rutext = """中国人认为，宇宙万法的那个源头
 它是什么
 它是如如
 对吧
@@ -48,11 +53,6 @@ rutext = """中国人认为宇宙万法的那个源头
 intents = botpy.Intents(guild_members=True)
 
 class MyClient(botpy.Client):
-    @staticmethod async def on_direct_message_create(message: DirectMessage):
-        global index
-        await send_message(sender, rutext[index])
-        index += 1
-        if index > len(rutext) - 1:
-            index = 0
-
-logging.info("用户名为 ",id,"触发了rulai")
+    async def on_direct_message_create(self, message: DirectMessage):
+        
+        logging.info("用户名为 ",id,"触发了rulai")
