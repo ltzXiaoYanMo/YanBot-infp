@@ -35,4 +35,4 @@ client = MyClient(intents=intents)
 # 连接腾讯QQ频道平台
 client.run(appid=appid, token=token)
 
-# 导入modules信息
+# 导入modules文件夹
