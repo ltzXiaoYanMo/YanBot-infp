@@ -1,4 +1,4 @@
-from loguru import logger
+from botpy import logger
 
 import sys
 import json
