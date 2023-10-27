@@ -1,10 +1,10 @@
 
 [project]
-name = ""
-version = ""
-description = ""
+name = "YanBot-infp"
+version = "114514.1919810"
+description = "QQOfficial SDK Bot"
 authors = [
-    {name = "ltzXiaoYanMo", email = "2315049216@qq.com"},
+    {name = "ltzXiaoYanMo", email = "xiajiaruimail@qq.com"},
 ]
 dependencies = [
     "qq-botpy>=1.1.2",
