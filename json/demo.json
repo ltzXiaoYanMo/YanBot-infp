@@ -1,7 +1,0 @@
-{
-    "sites": [
-    { "name":"YanMoBlog" , "url":"www.yanmoserver.com" },
-    { "name":"YanBotDocs" , "url":"ymbot.top" },
-    { "name":"KuoHuBlog" , "url":"khbit.cn" }
-    ]
-}
