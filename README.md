@@ -3,15 +3,11 @@
 
 此仓库使用了pdm包管理器，你在git clone完以后，可以直接在终端中输入:
 
-Linux:
 ```bash
-pip3 install pdm && pdm install
-```
-Windows:
-```bash
-pip install pdm && pdm install
+pip install requirements.txt
 ```
 
+为防止出现冲突，我 强烈建议 你 设置一个venv，~~具体我也不知道~~
 ## 伙伴的仓库
 
 以下的仓库均帮助过YanBot的成长，我也有可能帮助过<del>（貌似没有）<del>
