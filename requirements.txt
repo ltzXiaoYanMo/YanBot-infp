@@ -1,0 +1,12 @@
+# 配置要求
+PyYAML
+json~=1.4.1
+pymysql==1.0.1
+aiomysql
+
+# 主依赖
+qq-botpy==1.1.2
+portalocker
+
+# 打包程序
+nuitka>=1.8.4
